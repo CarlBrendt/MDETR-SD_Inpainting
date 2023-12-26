@@ -27,6 +27,7 @@ These cells are also an example of how you can run a diffusion model and generat
 4. YOU MUST CHANGE ALL PATHS TO YOUR IMAGE IN  "plot_inference_results_mask" or "plot_inference_results" FUNCTIONS. <br>
 ![Step 1](instruction/4.png)
 5. Skip cells with !pip install <br>
+<br>
 NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
 NOTE : If the gradio does not import, you need to rerun the notebook <br>
 <br>
