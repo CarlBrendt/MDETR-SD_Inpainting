@@ -7,6 +7,7 @@ The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detec
 <div align="center">
   <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png" width="1200" height="400"/>
 </div> <br>
+
 # SD Inpainting
 Stable Diffusion Inpainting is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, with the extra capability of inpainting the pictures by using a mask.<br>
 This model is featured on the hugging face website (https://huggingface.co/runwayml/stable-diffusion-inpainting), where you can also find its use.<br>
@@ -15,4 +16,11 @@ This model is featured on the hugging face website (https://huggingface.co/runwa
 In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model<br>
 
 # How to run the notebook on PC
+1. Download the notebook and install requirement.txt <br>
+2. In this cell you need to provide a path to you local folder with any images <br>
+3. This cell can be skipped or, if you want to run it, you need to change all the patches in it <br>.
+These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
+4. YOU MUST CHANGE ALL PATHs TO YOUR IMAGE IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
+NOTE: The entire notebook is sequential. you need to run the cells one at a time <br>
+<br>
 # How to run the notebook in Google Colab
