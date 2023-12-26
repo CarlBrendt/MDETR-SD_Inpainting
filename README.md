@@ -31,8 +31,8 @@ NOTE : If the gradio does not import, you need to rerun the notebook <br>
 1. Download this notebook to Google Colab. All dependencies will be set automatically <br>
 In this cell, you should create a custom prompt to locate the desired object <br>
 2. In this box, you can download a zip folder of images from google drive or use the link provided <br>
-3. These cells can be skipped or, if you want to run it, you need to change all the paths in it. <br>
+3. These cells can be skipped or, if you want to run it, you need to change all the paths in it.<br>
 These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
-4.IF PROVEDE YOUR OWN LINL TO IMAGES YOU MUST CHANGE ALL PATHS TO YOUR IMAGES IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
+4. IF PROVIDE YOUR OWN LINK TO IMAGES YOU MUST CHANGE ALL PATHS TO YOUR IMAGES IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
 NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
 NOTE : If the gradio does not import, you need to rerun the notebook <br>
