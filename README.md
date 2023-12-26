@@ -10,7 +10,9 @@ The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detec
 # SD Inpainting
 Stable Diffusion Inpainting is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, with the extra capability of inpainting the pictures by using a mask.<br>
 This model is featured on the hugging face website (https://huggingface.co/runwayml/stable-diffusion-inpainting), where you can also find its use.<br>
+
 # Info
-In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model
+In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model<br>
+
 # How to run the notebook on PC
 # How to run the notebook in Google Colab
