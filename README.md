@@ -8,19 +8,31 @@ The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detec
   <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png" width="1200" height="400"/>
 </div> <br>
 
-# SD Inpainting
+# SD INPAINTING
 Stable Diffusion Inpainting is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, with the extra capability of inpainting the pictures by using a mask.<br>
 This model is featured on the hugging face website (https://huggingface.co/runwayml/stable-diffusion-inpainting), where you can also find its use.<br>
 
-# Info
+# ABOUT
 In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model<br>
 
-# How to run the notebook on PC
-1. Download the notebook and install requirement.txt <br>
+# HOW TO RUN THE NOTEBOOK LOCAL
+1. Download the notebook and install requirement.txt . <br>
+In this cell, you should create a custom prompt to locate the desired object <br>
 2. In this cell you need to provide a path to you local folder with any images <br>
-3. This cell can be skipped or, if you want to run it, you need to change all the patches in it <br>.
+3. These cell can be skipped or, if you want to run it, you need to change all the patches in it. <br>
 These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
-4. YOU MUST CHANGE ALL PATHs TO YOUR IMAGE IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
-NOTE: The entire notebook is sequential. you need to run the cells one at a time <br>
+4. YOU MUST CHANGE ALL PATHS TO YOUR IMAGE IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
+5. Skip cells with !pip install <br>
+NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
+NOTE : If the gradio does not import, you need to rerun the notebook <br>
 <br>
-# How to run the notebook in Google Colab
+
+# HOW TO RUN THE NOTEBOOK IN GOOGLE COLAB
+1. Download this notebook to Google Colab. All dependencies will be set automatically <br>
+In this cell, you should create a custom prompt to locate the desired object <br>
+2. In this box, you can download a zip folder of images from google drive or use the link provided <br>
+3. These cells can be skipped or, if you want to run it, you need to change all the paths in it. <br>
+These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
+4.IF PROVEDE YOUR OWN LINL TO IMAGES YOU MUST CHANGE ALL PATHS TO YOUR IMAGES IN  "plot_inference_results_mask" and "plot_inference_results" FUNCTIONS. <br>
+NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
+NOTE : If the gradio does not import, you need to rerun the notebook <br>
