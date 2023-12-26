@@ -19,7 +19,7 @@ In the current notebook, we detect the desired objects by a query, e.g. 'find th
 1. Download the notebook and install requirement.txt . <br>
 In this cell, you should create a custom prompt to locate the desired object <br>
 ![Step 1](instruction/3.png)
-2. In this cell you need to provide a path to you local folder with any images <br>
+2. In this cell you need to provide a path to you local folder with any images or skip this cell <br>
 ![Step 1](instruction/21.png)
 3. These cell can be skipped or, if you want to run it, you need to change all the patches in it. <br>
 These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
@@ -34,9 +34,13 @@ NOTE : If the gradio does not import, you need to rerun the notebook <br>
 # HOW TO RUN THE NOTEBOOK IN GOOGLE COLAB
 1. Download this notebook to Google Colab. All dependencies will be set automatically <br>
 In this cell, you should create a custom prompt to locate the desired object <br>
+![Step 1](instruction/3.png)
 2. In this box, you can download a zip folder of images from google drive or use the link provided <br>
+![Step 1](instruction/21.png)
 3. These cells can be skipped or, if you want to run it, you need to change all the paths in it.<br>
 These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
+![Step 1](instruction/1.png)
 4. IF PROVIDE YOUR OWN LINK TO IMAGES YOU MUST CHANGE ALL PATHS TO YOUR IMAGES IN  "plot_inference_results_mask" or "plot_inference_results" FUNCTIONS. <br>
+![Step 1](instruction/4.png)
 NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
 NOTE : If the gradio does not import, you need to rerun the notebook <br>
