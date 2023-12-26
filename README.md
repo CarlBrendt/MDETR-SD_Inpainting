@@ -4,3 +4,6 @@ Multi-modal reasoning systems rely on a pre-trained object detector to extract r
 The code and models are available at https://github.com/ashkamath/mdetr <br>
 The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detection-for-end-to-end/review/ <br>
 ## Architecture
+
+# Info
+In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model.
