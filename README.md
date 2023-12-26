@@ -5,8 +5,7 @@ The code and models are available at https://github.com/ashkamath/mdetr <br>
 The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detection-for-end-to-end/review/ <br>
 ## Architecture
 <h1 align="center">
-  SmartVisionPlace
-  <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png") width="30px"/>
+  <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png")/>
 </h1>
 
 # Info
