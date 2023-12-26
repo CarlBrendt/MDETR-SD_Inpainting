@@ -41,6 +41,7 @@ In this cell, you should create a custom prompt to locate the desired object <br
 These cells are also an example of how you can run a diffusion model and generate a new photo with your own promt. In this way, you can create a custom photo.<br>
 ![Step 1](instruction/1.png)
 4. IF PROVIDE YOUR OWN LINK TO IMAGES YOU MUST CHANGE ALL PATHS TO YOUR IMAGES IN  "plot_inference_results_mask" or "plot_inference_results" FUNCTIONS. <br>
+Or you don't have to change it if you are using provided images
 ![Step 1](instruction/4.png)
 NOTE: The entire notebook is sequential. You need to run the cells one at a time <br>
 NOTE : If the gradio does not import, you need to rerun the notebook <br>
