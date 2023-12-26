@@ -5,7 +5,7 @@ The code and models are available at https://github.com/ashkamath/mdetr <br>
 The paper is available at https://paperswithcode.com/paper/mdetr-modulated-detection-for-end-to-end/review/ <br>
 ## Architecture
 <div align="center">
-  <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png" width="1000" height="600"/>
+  <img src="https://production-media.paperswithcode.com/methods/Screen_Shot_2021-08-11_at_10.03.50_AM.png" width="1200" height="200"/>
 </div>
 # Info
 In the current notebook, we detect the desired objects by a query, e.g. 'find the largest object'. For this purpose we use MDETR. Then we create a mask of the detected object and generate a new object in place of this object using SD Inpainting model.
